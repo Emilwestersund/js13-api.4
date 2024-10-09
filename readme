@@ -1,0 +1,34 @@
+# Vær App
+
+En enkel webapplikasjon for å vise været i en spesifisert by ved hjelp av OpenWeatherMap API. Applikasjonen henter værdata og viser informasjon som temperatur, minimum og maksimum temperatur, samt en beskrivelse av været.
+
+## Innhold
+
+- `index.html`: HTML-strukturen for applikasjonen.
+- `style.css`: CSS-stilen for applikasjonen.
+- `script.js`: JavaScript-koden som henter og viser værdata.
+
+## Funksjoner
+
+- Brukeren kan skrive inn et bynavn for å hente værdata.
+- Viser aktuell temperatur, minimum og maksimum temperatur, samt en kort beskrivelse av været.
+- Hvis brukeren skriver inn et ugyldig bynavn, vil en feilmelding vises.
+- Responsiv design med en enkel og intuitiv brukergrensesnitt.
+
+## Bruke applikasjonen
+
+1. Last ned eller klon prosjektet til din lokale maskin.
+2. Åpne `index.html` i en nettleser.
+3. Skriv inn navnet på en by i tekstfeltet og klikk på "Finn været" for å se værdataene.
+
+## Krav
+
+- En moderne nettleser (Chrome, Brave, Safari, etc.)
+- Internett-tilgang for å hente værdata fra OpenWeatherMap API.
+
+## API-nøkkel
+
+Du må registrere deg på [OpenWeatherMap](https://openweathermap.org/) for å få din egen API-nøkkel. Erstatt `apikey`-verdien i `script.js` med din egen nøkkel:
+
+```javascript
+const apikey = "DIN_API_NØKKEL_HER";
